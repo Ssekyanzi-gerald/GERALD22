@@ -1,188 +1,83 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-<title>Faculty of science and technology at MRU</title>
-<link rel="styleshrrt" hreff="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <link rel="stylesheet" href="style.css">
 <style>
 body {
-   font-family:Arial, sans-serif;
-   margin: 0;
-   padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-.sidebar {
-    width: 130px;
-	background-color:royalblue;
-	padding: 15px;
-	margin-left:10px;
-	padding-left:10px;
-	box-shadow: 20px 0 5px rgba(0,0,0,0.1);
-	position:absolute;
-	top: 300px;
-	left: opx;
-	height:100%;
-	overflow-y: auto;
-	flex-grow: 0;
-	flex-shrink: 1;
-	flex-basis: auto;
-	border:2px royalblue;
-	border-radius:20px 10px;
-	max-height: 300px;
-	    }
-.item {
-      margin-bottom: 15px;
-      padding: 10px;
-      background-color: #fff;
-      border-radius: 5px;
-      display: flex;
-      justify-content: center;
-	  }
-	   }
-.item .loyalty {
-      font-size: 14px;
-	  color: yellow;
-	  }
-.item .name {
-    font-weight: bold;
-	}
-.item .loyalty .low {
-  color: red;
-  }
-.item .loyalty .medium {
-   color: yellow;
-   }
-.item .loyalty .high {
-   color: green;
-   }
- <!--navigation bar-->
- .nav {
-     background-color: royalblue;
-	 padding: 20px; 
-	 font-size:50px;
-	 }
+
+nav {
+    background-color:red;
+    color: green;
+    padding: 1em;
+    text-align: center;
+	front-size: 50px;
+	margin-right:20px;
+	width:100%px;
+}
+
 nav ul {
-    padding:0;
-	display:flex;
-	list-style:none;
-	margin :0px;
-   }
- nav ul li{
- margin-right: 20px;
- font-size:50px;
- }
- nav ul li a {
-     font-weight: bold;s
-     width:100%px;
-	 padding:20px; 
-	 text-decoration:none;
-	 font-family:times new roman;
-	 color: white;
-	 background-color:royalblue;
-	 border-radius:50px 10px 50px 10px;
-	 text-align:right;
-	 font-size:20px;
-	 
-      }
- .table {
-	  float:right;
-	  border-collapse: collapse;
-	  margin-left:60px;
-	  width: 100%;
-	  border: 1px solid;
-	  padding: 10px;
-	  background-color:black;
-	  box-shadow:0 0 10px rgba(0,0,0,0.1);
-	} 
-	th, td {
-	border: 1px solid black;
-	padding: 20px;
-	text-align:left;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
 }
-	th {
-	background-color: royalblue;
-	font-weight: bold;
-	color:white;
-	}
-	tr:nth-child(even) {
-	background-color:royalblue ;
-	}   
-   }
-.table-right {
-     float: right;
-	 width: auto;
- .main-section h2 {
-       text-align: right;
-	   margin-bottom: 10px;
-	   }
-  head{
-       background-color:yellow;
-	   
+
+nav li {
+    display: inline-block;
+    margin-right: 300px;
+	width:100%px;
+	border-radius:50px 10px 50px 10px;
+}
+
+nav a {
+    color: blue;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+section {
+    padding: 2em;
+	background-color:orange;
+}
+
+#home img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 0;
+}
 </style>
 </head>
-<body style="background-color:white smoke;border:5px solid black;">
-<!--navigation links-->
-<head style="background-color:blue;">
-<nav>
-<ul style="background-color:blue;padding:25px;">
-<li><a href="HOME.html">HOME </a></li>
-<li><a href="ABOUT.html">ABOUT </a></li>
-<li><a href="CONTACT.html">CONTACT</a></li>
-</ul>
-</nav>
-</head>
-<!--sidebar-->
-<div class="sidebar style="padding:500px;">
-<h2 style="color:white;padding-left:30px;">ITEMS</h2>
-<div class="item">
-<span class="name">Dashboard</span>
-</div>
-<div class="item">
-<span class="name">Course</span>
-</div>
-<div class="item">
-<span class="name">Setting</span>
-</div>
-<div class="item">
-<span class="name">Profile</span>
-</div>
-</div><br>
-<h1 style="text-align:center;font-size:40px;font-family:italic;color:blue;padding:5px;"><b><u>MUTEESA I ROYAL UNIVERSITY</u></b></h1>
-<h2 style="font-family:30px;color:black;padding-left:500px;"><u> COURSES UNDER THE FACULTY <br>OF SCIENCE AND TECHNOLOGY.</u></h2>
-<!--table containing courses-->
-<main>  
-<table style="padding-left:500px;">
-<tr>
-<th>NUMBER</th>
-<th>COURSES</th>
-<th>COU8RSE CODE</th>
-</tr>
-<tr>
-<td>1</td>
-<td>BSc. CIVIL ENGINEERING</td>
-<td> BSC4402</td>
-</tr>
-<tr>
-<td>2</td>
-<td>MECHANICAL ENGINEERING</td>
-<td>BME</td>
-</tr>
-<tr>
-<td>3</td>
-<td>INFORMATION TECHNOLOGY</td>
-<td>BIT</td>
-</tr>
-<tr>
-<td>4</td>
-<td>ELECTRICAL ENGINEERING</td>
-<td>BEE</td>
-</tr>
-</table>
-</main><br><br>
-<hr 2px solid black>
-<!--Footer-->
-<footer style="background-color:royalblue;font-size:20px;text-align:center;padding:2px;border-radius:30px 10px;color:white;">
-<p>&copy; 2025 Faculty of science and Technology@ MRU</p>
-</footer>
+<body style="background-image:url(home.jpg);">
+    <nav>
+        <ul style="background-color:red;padding:15px;front-size:50px;">
+            <button style="background-color:green;border-radius:50px 20px 50px 20px;"><li><a href="home.html">Home</a></li></button>
+            <button style="background-color:green;border-radius:50px 20px 50px 20px;"><li><a href="about.html">About</a></li></button>
+            <button style="background-color:green;border-radius:50px 20px 50px 20px;"><li><a href="contact.html">Contact</a></li></button>
+        </ul>
+    </nav>
+    
+    <section id="home">
+        <h1 style="text-align:center;color:white;font-size:40px;">Welcome to Isaac Newton High School</h1>
+        <p style="text-align:center;font-size:25px;"><b>We are dedicated to providing quality education and fostering  love for learning.</b></p>
+		 <marquee><video width="100%" height="500px" controls>
+            <source src="MOVIES/esomelo lyange.mp4" type="video/mp4">
+        </video></marquee>
+    <img src="view.jpg">
+	</section>
 </body>
-
 </html>
-
